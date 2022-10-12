@@ -14,6 +14,7 @@ h1{
     font-family: ;
     font-size:2.5rem;
     font-weight: ;
+    margin-bottom: 12px
 }
 h2{
     font-family: ;
@@ -41,7 +42,7 @@ h2{
     justify-content: flex-end;
 }
 
-/* Malte start */
+/* Emil start */
 
 .begivenheder-pictures{
     height: 200px;
@@ -49,7 +50,12 @@ h2{
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: grey;
+    margin-bottom: 32px;
 }
+
+/* emil slut */
+
+/* Malte start */
 
 .box-grey{
     height: 578px;
