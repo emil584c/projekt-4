@@ -4,6 +4,11 @@
     box-sizing: border-box; /*Bredde på et element er inklusiv padding og border*/
 }
 
+img{
+    /*max er nødvendigt for at billeder bliver så stort som der kan blive i boksen den er i*/
+    max-width: 100%;
+}
+
 /* Fonts */
 h1{
     font-family: ;
@@ -31,4 +36,12 @@ h2{
 .flex-column{  
     display: flex;
     flex-direction: column;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+header{
+    justify-content: space-between;
 }
