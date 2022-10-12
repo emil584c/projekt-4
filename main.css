@@ -72,10 +72,10 @@ h2{
 }
 /* Malte Slut */
 
-/* Vicky Start */
+/* Vicky Start - Forside og header*/
 
 header{
-    height: 5rem;
+    height: 3rem;
 }
 
 .header-text {
@@ -86,7 +86,7 @@ header{
 }
 	
 .logo {
-    width: 5rem;
+    padding-left: 1.5rem;
 }
 
 nav {
@@ -98,8 +98,8 @@ nav {
 }
 
 .log-ind {
-    width: 5rem;
     align-items: center;
+    padding: 0 1.5rem 0 2rem;
 }
 
 .banner{
