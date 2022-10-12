@@ -24,11 +24,11 @@ h2{
 /* Fonts slut */
 
 
-.split-row{
+.flex-row{
     display: flex;
     flex-direction: row;
 }
-.split-column{  
+.flex-column{  
     display: flex;
     flex-direction: column;
 }
