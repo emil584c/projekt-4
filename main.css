@@ -1,4 +1,8 @@
-
+*{
+    all: unset; /*Fjerne all user agent stylesheet*/
+    display: revert; /*Den aktiverer display funktionen i user agent stylesheet*/
+    box-sizing: border-box; /*Bredde på et element er inklusiv padding og border*/
+}
 
 /* Fonts */
 h1{
