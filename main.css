@@ -95,6 +95,10 @@ h2{
 
 /* Vicky Start - Forside og header*/
 
+.front-page-padding{
+    padding: 2rem 1.5rem;
+}
+
 header{
     height: 3rem;
 }
@@ -123,12 +127,36 @@ nav {
     padding: 0 1.5rem 0 2rem;
 }
 
+.banner-container{
+    position: relative;
+    text-align: center;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
 .banner{
     width: 100vw;
 }
 
-.front-page-padding{
-    padding: 2rem 1.5rem;
+.netflix-galleri-card{
+    padding-right: 1.5rem;
+    /* height: 210px; */
+    min-width: 265px;
+}
+
+.horizontal-scroll{
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.horizontal-scroll::-webkit-scrollbar {
+    display: none;
 }
 
 /* Vicky Slut */
