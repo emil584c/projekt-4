@@ -53,7 +53,17 @@ header{
     background-color: grey;
 }
 
-#picure-sommerfest{
-    background-image: url(https://frinet.nemtilmeld.dk/images/descriptions/13571/521ee98b-fd50-4eb3-9bc0-6fb583d51eebSommerfest-2016-1-von-1.jpg);
+.box-grey{
+    height: 578px;
+    width: 367px;
+    background-color: grey;
 }
 
+#picure-sommerfest{
+    background-image: url(https://frinet.nemtilmeld.dk/images/descriptions/13571/521ee98b-fd50-4eb3-9bc0-6fb583d51eebSommerfest-2016-1-von-1.jpg);
+<<<<<<< Updated upstream
+}
+
+=======
+}
+>>>>>>> Stashed changes
