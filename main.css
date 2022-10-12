@@ -38,6 +38,7 @@ h2{
     flex-direction: column;
 }
 
+<<<<<<< Updated upstream
 .justify-end{
     justify-content: flex-end;
 }
@@ -45,3 +46,15 @@ h2{
 header{
     justify-content: space-between;
 }
+=======
+.begivenheder-pictures{
+    height: 22rem;
+    width: 15.5rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#picure-sommerfest{
+    background-image: url(https://frinet.nemtilmeld.dk/images/descriptions/13571/521ee98b-fd50-4eb3-9bc0-6fb583d51eebSommerfest-2016-1-von-1.jpg);
+}
+>>>>>>> Stashed changes
