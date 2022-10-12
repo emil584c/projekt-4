@@ -1,0 +1,8 @@
+.split-row{
+    display: flex;
+    flex-direction: row;
+}
+.split-column{  
+    display: flex;
+    flex-direction: column;
+}
