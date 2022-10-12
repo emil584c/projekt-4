@@ -61,9 +61,38 @@ header{
 
 #picure-sommerfest{
     background-image: url(https://frinet.nemtilmeld.dk/images/descriptions/13571/521ee98b-fd50-4eb3-9bc0-6fb583d51eebSommerfest-2016-1-von-1.jpg);
-<<<<<<< Updated upstream
+
+}
+    height: 5rem;
 }
 
-=======
+.header-text {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
->>>>>>> Stashed changes
+	
+.logo {
+    width: 5rem;
+}
+
+nav {
+    flex: 1;
+}
+
+.nav-a {
+    padding: 0 2rem;
+}
+
+.log-ind {
+    width: 5rem;
+    align-items: center;
+}
+
+.banner{
+    width: 100vw;
+}
+
+.front-page-padding{
+    padding: 2rem 1.5rem;
