@@ -113,21 +113,34 @@ nav {
 /* Vicky Slut */
 
 /* Alexander start */
+.h1login{
+    display: flex;
+    margin: auto;
+    font-size: ;
+}
 
 .textbox{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
+<<<<<<< Updated upstream
     margin:;
     border: solid 2px;
+=======
+    margin:auto;
+>>>>>>> Stashed changes
     border-color: rgb(134, 133, 133);
-    padding: 8px;
+    border: solid 2px;
+    padding: 2px;
+    
 
 }
 .login{
     display: flex;
     justify-content: center;
-    border: solid 2px;
+    margin:auto;
     border-color: rgb(134, 133, 133);
+    border: solid 2px;
     padding: 2px;
    
 }
