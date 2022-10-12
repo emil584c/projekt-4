@@ -28,7 +28,6 @@ h2{
 
 /* Fonts slut */
 
-
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -42,9 +41,15 @@ h2{
     justify-content: flex-end;
 }
 
+<<<<<<< Updated upstream
 header{
     justify-content: space-between;
 }
+=======
+
+/* Malte start */
+
+>>>>>>> Stashed changes
 .begivenheder-pictures{
     height: 200px;
     width: 300px;
@@ -62,7 +67,15 @@ header{
 #picure-sommerfest{
     background-image: url(https://frinet.nemtilmeld.dk/images/descriptions/13571/521ee98b-fd50-4eb3-9bc0-6fb583d51eebSommerfest-2016-1-von-1.jpg);
 
+<<<<<<< Updated upstream
 }
+=======
+/* Malte Slut */
+
+/* Vicky Start */
+
+header{
+>>>>>>> Stashed changes
     height: 5rem;
 }
 
@@ -95,4 +108,11 @@ nav {
 }
 
 .front-page-padding{
+<<<<<<< Updated upstream
     padding: 2rem 1.5rem;
+=======
+    padding: 2rem 1.5rem;
+}
+
+/* Vicky Slut */
+>>>>>>> Stashed changes
