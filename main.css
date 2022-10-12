@@ -43,6 +43,7 @@ h2{
 }
 
 header{
+<<<<<<< Updated upstream
     justify-content: space-between;
 }
 .begivenheder-pictures{
@@ -57,3 +58,39 @@ header{
     background-image: url(https://frinet.nemtilmeld.dk/images/descriptions/13571/521ee98b-fd50-4eb3-9bc0-6fb583d51eebSommerfest-2016-1-von-1.jpg);
 }
 
+=======
+    height: 5rem;
+}
+
+.header-text {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+	
+.logo {
+    width: 5rem;
+}
+
+nav {
+    flex: 1;
+}
+
+.nav-a {
+    padding: 0 2rem;
+}
+
+.log-ind {
+    width: 5rem;
+    align-items: center;
+}
+
+.banner{
+    width: 100vw;
+}
+
+.front-page-padding{
+    padding: 2rem 1.5rem;
+}
+>>>>>>> Stashed changes
