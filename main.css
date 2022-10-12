@@ -60,6 +60,27 @@ h2{
 /* emil slut */
 
 /* Malte start */
+.beskrivelse-textbox{
+    border: solid 2px black;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+.konkurrencer-textbox{
+    border: solid 2px black;
+    padding: 12px;
+    margin: 12px 0;
+}
+
+.tilmeld-afmeld-knap{
+    border: solid black 2px;
+    padding: 5px;
+}
+
+.information-sommerfest{
+    justify-content: center;
+    margin-left: 200px;
+}
 
 .box-grey{
     height: 367px;
