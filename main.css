@@ -123,12 +123,9 @@ nav {
     margin-top: 20px;
     display: flex;
     justify-content: center;
-<<<<<<< Updated upstream
     margin:;
     border: solid 2px;
-=======
     margin:auto;
->>>>>>> Stashed changes
     border-color: rgb(134, 133, 133);
     border: solid 2px;
     padding: 2px;
