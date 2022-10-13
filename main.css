@@ -92,6 +92,7 @@ h3 {
 
 .begivenheder-text{
     margin-left: 20px;
+    max-width: 230px;
 }
 
 .share{
@@ -99,6 +100,19 @@ h3 {
     margin-left: 10px;
 }
 
+.flex-bottom{
+    margin-top: auto;
+}
+
+.begivenheder-flex{
+    max-height: 200px;
+    margin-bottom: 20px;
+}
+
+.read-more{
+    margin-right: 10px;
+    margin-top:6px ;
+}
 
 /* emil slut */
 
@@ -231,7 +245,7 @@ article{
     margin-bottom: 0.5rem;
 }
 
-.cursor-pointer{
+.-pointer{
     cursor: pointer;
 }
 
