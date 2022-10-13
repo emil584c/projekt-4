@@ -24,13 +24,16 @@
     </header>
     <main class="main-whitespace">
         <h1 class="h1login">Log ind</h1>
-        <h2>Log ind med dit UCL brugernavn og kodeord</h2>
-             <h3>UCL brugernavn</h3>
+        <h2 class="h2login">Log ind med dit UCL brugernavn og kodeord</h2>
+             <h3 class="logininfo">UCL brugernavn</h3>
              <form action="/action_page.php"> 
                 <input class="textbox" type="text" id="textbox" name="fname"><br><br>
-                <h3>kodeord</h3>
+                <h3 class="logininfo"> kodeord</h3>
                 <input class="textbox" type="text" id="textbox" name="fname"><br><br>
-                <input type="submit" value="Annuller"> <input class="login" type="submit" value="Log ind">
+                <div class="flex-row">
+                    <input class="annuller" type="submit" value="Annuller">
+                    <input class="login" type="submit" value="Log ind">
+                </div>
              </form>
             </div>
     </main>
