@@ -257,52 +257,60 @@ article{
 /* Vicky Slut */
 
 /* Alexander start */
+
+
+.login-whitespace{
+    max-width: 25rem;
+    margin: auto;
+}
+
 .h1login{
     display: flex;
-    justify-content: center;
     padding-top: 7rem;
-    margin: auto;
     font-size: 2.7rem;
+    color: rgb(78, 78, 78);;
 }
 .h2login{
     display: flex;
-    justify-content: center;
     margin-top: 20px;
-    margin:auto;
-    
-   
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+    color: rgb(78, 78, 78);;
 }
-
 
 .textbox{
     display: flex;
-    justify-content: center;
     border: solid 2px;
-    margin-top: 20px;
-    margin:auto;
     border-color: rgb(134, 133, 133);
     border: solid 2px;
-    width: 23rem;
-    height: 3rem;
-    
+    width: 27rem;
+    height: 3.2rem;
+    color: rgb(78, 78, 78);;
 
 }
 .login{
     display: flex;
-    justify-content: center;
-    margin:auto;
     border-color: rgb(134, 133, 133);
     border: solid 2px;
     padding: 2px;  
+    color: rgb(78, 78, 78);;
 }
 .annuller{
     display: flex;
-    justify-content: center;
-    max width: 23rem;
+    justify-content: end;
+    color: rgb(78, 78, 78);;
+    padding-right: 10px;
+}
+.flex-rowlogin{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 }
 .logininfo{
     display: flex;
-    justify-content: center;
-}
+    color: rgb(78, 78, 78);;
+    font-size: 1rem;
+    
+}   
 
 /* Alexander slut */
