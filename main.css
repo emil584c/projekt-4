@@ -25,12 +25,7 @@ h2{
     margin-bottom: 12px;
 }
 
-<<<<<<< Updated upstream
 h3{
-    font-family: sans-serif;
-=======
-h3 {
->>>>>>> Stashed changes
     font-size: 1.25rem;
     font-weight: 300;
 }
@@ -41,20 +36,9 @@ h3 {
 }
 
 .body-text{
-<<<<<<< Updated upstream
-    font-family: sans-serif;
-    font-size:1rem ;
-    font-weight: ;
-}
-
-html,body{
-    font-family: sans-serif;
-=======
-    font-size:1.25rem ;
+    font-size: 1rem ;
     font-weight: 300;
->>>>>>> Stashed changes
 }
-
 
 
 
