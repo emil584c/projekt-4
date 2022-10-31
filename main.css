@@ -146,6 +146,10 @@ h3{
 #picure-sommerfest{
     background-image: url(https://frinet.nemtilmeld.dk/images/descriptions/13571/521ee98b-fd50-4eb3-9bc0-6fb583d51eebSommerfest-2016-1-von-1.jpg);
 }
+
+.event-icon-style{
+    gap: 20px;
+}
 /* Malte Slut */
 
 /* Vicky Start - Forside og header*/
