@@ -36,6 +36,11 @@ img{
 }
 
 /* Fonts */
+.logo{
+    font-size: 32px;
+    font-weight: 700;
+}
+
 h1{
     font-size:2.5rem;
     font-weight: 700;
@@ -104,6 +109,11 @@ p{
 
 /* Emil start */
 
+.bingchilling{
+    max-width: 800px;
+    margin: auto;
+}
+
 .begivenheder-pictures{
     height: 200px;
     width: 300px;
@@ -143,6 +153,7 @@ p{
     padding-bottom: 20px;
     padding: 20px;
     margin: auto;
+    margin-top: 32px;
 }
 
 .read-more{
