@@ -47,13 +47,11 @@ body{
 h1{
     font-size:2.5rem;
     font-weight: 700;
-    margin-bottom: 12px;
 }
 
 h2{
     font-size:1.75rem;
     font-weight: 500;
-    margin-bottom: 12px;
 }
 
 h3{
@@ -66,12 +64,15 @@ h3{
     font-weight: 700;
 }
 
-.body-text{
+p{
     font-size: 1rem ;
     font-weight: 300;
 }
 
-
+.label{
+    font-size: 0.75rem ;
+    font-weight: 300;
+}
 
 /* Fonts slut */
 
