@@ -14,7 +14,7 @@ img{
 }
 
 body{
-    background-image: url("background-login.png");
+    background-image: url("images/background-login.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
@@ -212,6 +212,11 @@ header{
     align-items: center;
     height: 5rem;
     padding: 0 2rem;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100;
+    /* use JS to make the header glass on scroll */
 }
 
 .logo{
@@ -246,10 +251,9 @@ nav{
 .banner-container{
     position: relative;
     text-align: center;
-    margin: 1rem 2rem 2rem 2rem;
+    margin: 6rem 2rem 2rem 2rem;
     border-radius: 18px;
     border: 5px solid rgba((141,141,141),0.5);
-    
 }
 
 .banner{
@@ -356,6 +360,10 @@ nav{
 .comment-container{
     padding: 0.75rem 1rem;
     margin-top: 1rem;
+}
+
+footer{
+    height: 3rem;
 }
 
 /* mine begivenheder side */
