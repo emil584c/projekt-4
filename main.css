@@ -28,6 +28,11 @@ img{
     background: rgb(210,2,0);
     background: linear-gradient(90deg, rgba(210,2,0,1) 0%, rgba(252,207,0,1) 100%);
     color: #fafafa;
+    padding: 1rem 2rem 1.125rem 2rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Fonts */
