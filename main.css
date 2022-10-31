@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;700&display=swap');
+
 *{
     all: unset; /*Fjerne all user agent stylesheet*/
     display: revert; /*Den aktiverer display funktionen i user agent stylesheet*/
     box-sizing: border-box; /*Bredde på et element er inklusiv padding og border*/
+    font-family: 'Exo 2', sans-serif;
 }
 
 img{
@@ -11,31 +14,34 @@ img{
 
 /* Fonts */
 h1{
-    font-family: sans-serif;
     font-size:2.5rem;
-    font-weight: ;
-    margin-bottom: 12px;
-}
-h2{
-    font-family: sans-serif;
-    font-size:1.75rem;
-    font-weight: ;
+    font-weight: 700;
     margin-bottom: 12px;
 }
 
+h2{
+    font-size:1.75rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+<<<<<<< Updated upstream
 h3{
     font-family: sans-serif;
+=======
+h3 {
+>>>>>>> Stashed changes
     font-size: 1.25rem;
-    font-weight: ;
+    font-weight: 300;
 }
 
 .display-font{
-    font-family: sans-serif;
     font-size: 5rem;
-    font-weight: ;
+    font-weight: 700;
 }
 
 .body-text{
+<<<<<<< Updated upstream
     font-family: sans-serif;
     font-size:1rem ;
     font-weight: ;
@@ -43,6 +49,10 @@ h3{
 
 html,body{
     font-family: sans-serif;
+=======
+    font-size:1.25rem ;
+    font-weight: 300;
+>>>>>>> Stashed changes
 }
 
 
