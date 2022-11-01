@@ -26,7 +26,6 @@ img{
 }
 
 .primary-button{
-    border: 1px solid rgba(255,255,255,0.5);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0,0,0,0.1);
     background: rgb(210,2,0);
@@ -489,7 +488,8 @@ input{
 }
 
 label{
-    margin-bottom: ;
+    display: inline-block;
+    margin-bottom: 1rem;
 }
 
 .login-card{
