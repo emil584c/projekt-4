@@ -35,6 +35,10 @@ img{
     align-items: center;
 }
 
+i{
+    font-size: 2rem;
+}
+
 /* Fonts */
 .logo{
     font-size: 32px;
@@ -109,7 +113,7 @@ p{
 
 /* Emil start */
 
-.bingchilling{
+.begivenheder-whitespace{
     max-width: 800px;
     margin: auto;
 }
@@ -124,41 +128,43 @@ p{
 }
 
 .begivenheder-example{
-    height: 200px;
-    width: 300px;
+    height: 220px;
+    width: 320px;
     background-image: url(images/example-party.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
 
+.exampel{
+    height: 230px;
+    border-radius: 10px;
+}
+
 .begivenheder-text{
     margin-left: 20px;
-    max-width: 400px;
+    max-width: 420px;
 }
 
 .share{
-    font-size: 1.50rem;
+    font-size: 1.75rem;
     margin-left: 10px;
 }
 
 .flex-bottom{
     margin-top: auto;
+    gap: 1.5rem;
+    align-items: center;
 }
 
 .begivenheder-flex{
-    max-height: 250px;
+    max-height: 300px;
     margin-bottom: 20px;
     max-width: 800px;
     padding-bottom: 20px;
-    padding: 20px;
+    padding: 1rem 0.75rem;
     margin: auto;
     margin-top: 32px;
-}
-
-.read-more{
-    margin-right: 10px;
-    margin-top:6px ;
 }
 
 .background-loggedin{
@@ -182,11 +188,6 @@ p{
     border: solid 2px black;
     padding: 12px;
     margin: 12px 0;
-}
-
-.tilmeld-afmeld-knap{
-    border: solid black 2px;
-    padding: 5px;
 }
 
 .information-sommerfest{
