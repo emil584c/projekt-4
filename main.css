@@ -8,9 +8,7 @@
     color: #0f0f0f;
 }
 
-i{
-    font-size: 2rem;
-}
+
 
 img{
     /*max er nødvendigt for at billeder bliver så stort som der kan blive i boksen den er i*/
@@ -36,6 +34,11 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.secondary-button{
+    font-size: 1rem;
+    margin: 0 1.5rem;
 }
 
 /* Fonts */
@@ -64,6 +67,7 @@ h3{
 .display-font{
     font-size: 5rem;
     font-weight: 700;
+    color: #fafafa;
 }
 
 p{
@@ -76,10 +80,14 @@ p{
     font-weight: 300;
 }
 
+i{
+    font-size: 1.5rem;
+}
+
 /* Fonts slut */
 
 .main-whitespace{
-    max-width: 1048px;
+    max-width: 800px;
     margin: 6rem auto 0 auto;
 }
 
@@ -112,8 +120,8 @@ p{
 
 /* Emil start */
 
-.begivenheder-whitespace{
-    max-width: 800px;
+.mine-begivenheder-whitespace{
+    max-width: 1048px;
     margin: auto;
 }
 
@@ -146,7 +154,6 @@ p{
 }
 
 .share{
-    font-size: 1.50rem;
     margin-left: 10px;
 }
 
@@ -187,56 +194,63 @@ p{
 
 /* Malte start */
 .beskrivelse-textbox{
-    padding: 15px;
-    margin: 12px 0;
+    padding: 0.75rem 1rem;
+    margin-bottom: 2rem;
 }
 
 .konkurrencer-textbox{
-    padding: 15px;
-    margin: 12px 0;
+    padding: 0.75rem 1rem;
 }
 
 .tilmeld-afmeld-knap{
-    padding: 1rem;
-    width: 7.5rem;
+    margin-right: 1.5rem;
+    /* width: 7.5rem; */
 }
 
 .information-event{
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 1rem;
 }
 
-.box-grey{
-    height: 300px;
-    width: 500px;
-    background-color: grey;
-}
-
-#picure-sommerfest{
-    background-image: url(https://frinet.nemtilmeld.dk/images/descriptions/13571/521ee98b-fd50-4eb3-9bc0-6fb583d51eebSommerfest-2016-1-von-1.jpg);
+.event-image{
+    width: 40%;
+    border-radius: 18px;
 }
 
 .information-kort-event{
-    padding: 15px;
+    padding: 0.75rem 1rem;
+    margin-bottom: 2rem;
 }
 
-.font-bold{
-    font-weight: 700;
+.font-medium{
+    font-weight: 500;
 }
 
+.icon-container{
+    width: 2rem;
+    display: flex;
+    justify-content:  center;
+}
 .event-icon-style{
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
+
 }
 
-.information-icons{
+/* .information-icons{
     font-size: 1.3rem;
     width: 2rem;
-}
+    margin-right: 0.75rem;
+} */
 
-.event-share-icon{
-    margin-top: 12px;
-    margin-left: 20px;
+.begivenhed-button-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
+/* .event-share-icon{
+    display: flex;
+    justify-content: center;
+} */
 /* Malte Slut */
 
 /* Vicky Start - Forside og header*/
@@ -384,6 +398,7 @@ nav{
 .post-image{
     width: 40%;
     max-height: 300px;
+    border-radius: 18px;
 }
 
 .post-description{
@@ -418,63 +433,9 @@ footer{
 
 /* Alexander start */
 
-
-/* .login-whitespace{
-    max-width: 25rem;
-    margin: auto;
-}
-
-.h1login{
-    display: flex;
-    padding-top: 7rem;
-    font-size: 2.7rem;
-    color: rgb(78, 78, 78);;
-}
-.h2login{
-    display: flex;
-    margin-top: 20px;
-    padding-bottom: 15px;
-    font-size: 1.3rem;
-    color: rgb(78, 78, 78);;
-}
-
-.textbox{
-    display: flex;
-    border: solid 2px;
-    border-color: rgb(134, 133, 133);
-    border: solid 2px;
-    width: 27rem;
-    height: 3.2rem;
-    color: rgb(78, 78, 78);;
-
-}
-.login{
-    display: flex;
-    border-color: rgb(134, 133, 133);
-    border: solid 2px;
-    padding: 2px;  
-    color: rgb(78, 78, 78);;
-}
-.annuller{
-    display: flex;
-    justify-content: end;
-    color: rgb(78, 78, 78);;
-    padding-right: 10px;
-}
-.flex-rowlogin{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-}
-.logininfo{
-    display: flex;
-    color: rgb(78, 78, 78);;
-    font-size: 1rem;
-}    */
-
 .login-whitespace{
-    max-width: 25rem;
-    margin: auto;
+    max-width: 400px;
+    margin: 6rem auto 0 auto;
 }
 
 input{
@@ -482,18 +443,23 @@ input{
     border: solid 1px rgba(141,141,141,0.5);
     width: 100%;
     height: 1.75rem;
-    color: rgba(255,255,255,0.3);
-    padding: 1rem 1rem;
+    color: #0f0f0f;
+    padding: 1.5rem 0.75rem;
     border-radius: 10px;
 }
 
 label{
     display: inline-block;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .login-card{
     padding: 0.75rem 1rem;
-    width: 50%;
+}
+
+.login-card-buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 /* Alexander slut */

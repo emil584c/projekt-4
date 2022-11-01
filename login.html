@@ -8,9 +8,9 @@
     <title>Indsæt navn her</title>
     <link rel="stylesheet" href="main.css">
 </head>
-<body>
+<body class="background-login">
     <header>
-        <a class="logo" href="index.html"><img src="https://via.placeholder.com/75x50.png?text=logo" alt="UCL events logo"></a>
+        <a class="logo" href="index.html"><p class="logo">UCLevents</p></a>
         <nav class="nav-flex">
             <div>
                 <a class="nav-a" href="begivenheder.html">Begivenheder</a>
@@ -20,18 +20,21 @@
         </nav>
         <a class="primary-button log-in" href="login.html">Log Ind</a>
     </header>
-    <main class="main-whitespace">
+    <main class="login-whitespace">
         <div>
             <h1 class="">Log ind</h1>
-            <h2 class="">Log ind med dit UCL brugernavn og kodeord</h2>
+            <h2 class="">Log ind med dit UCL login</h2>
             <div class="glass-effect login-card">
                 <form action="index.html">
                     <label for="fname">UCL brugernavn</label><br>
                     <input type="text" id="" name=""><br><br>
-                    <label for="lname">UCl Kodeord</label><br>
-                    <input type="text" id="" name="">
+                    <label for="lname">UCL kodeord</label><br>
+                    <input type="text" id="" name=""><br><br>
                 </form>
-                <a class="primary-button" href="">Login</a>
+                <div class="login-card-buttons">
+                    <a class="primary-button" href="">Log ind</a>
+                    <a class="secondary-button" href="">Annuller</a>
+                </div>
             </div>
         </div>
     </main>
