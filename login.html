@@ -9,33 +9,31 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header class="flex-row">
-        <a class="cursor-pointer header-text" href="index.html"><img Class="logo" src="https://via.placeholder.com/75x50.png?text=logo" alt="UCL events logo"></a>
-        <nav class="header-text">
+    <header>
+        <a class="logo" href="index.html"><img src="https://via.placeholder.com/75x50.png?text=logo" alt="UCL events logo"></a>
+        <nav class="nav-flex">
             <div>
-                <a class="nav-a cursor-pointer" href="begivenheder.html">Begivenheder</a>
+                <a class="nav-a" href="begivenheder.html">Begivenheder</a>
                 <!-- <a class="nav-a cursor-pointer" href="##">Opret Begivenhed</a> -->
-                <a class="nav-a cursor-pointer" href="mine-begivenheder.html">Mine Begivenheder</a>
+                <a class="nav-a" href="mine-begivenheder.html">Mine Begivenheder</a>
             </div>
         </nav>
-        <div class="log-ind header-text body-text cursor-pointer">
-            <a href="login.html">Log ind</a>
-        </div>
+        <a class="primary-button log-in" href="login.html">Log Ind</a>
     </header>
-    <main class="login-whitespace">
-        <h1 class="h1login">Log ind</h1>
-        <h2 class="h2login">Log ind med dit UCL brugernavn og kodeord</h2>
-             <h3 class="logininfo">UCL Brugernavn</h3>
-             <form action="index.html"> 
-                <input class="textbox" type="text" id="textbox" name="fname"><br><br>
-                <h3 class="logininfo"> Kodeord</h3>
-                <input class="textbox" type="text" id="textbox" name="fname"><br><br>
-                <div class="flex-rowlogin">
-                    <input class="annuller" type="submit" value="Annuller">
-                    <input class="login" type="submit" value="Log ind">
-                </div>
-             </form>
+    <main class="main-whitespace">
+        <div>
+            <h1 class="">Log ind</h1>
+            <h2 class="">Log ind med dit UCL brugernavn og kodeord</h2>
+            <div class="glass-effect login-card">
+                <form action="index.html">
+                    <label for="fname">UCL brugernavn</label><br>
+                    <input type="text" id="" name=""><br><br>
+                    <label for="lname">UCl Kodeord</label><br>
+                    <input type="text" id="" name="">
+                </form>
+                <a class="primary-button" href="">Login</a>
             </div>
+        </div>
     </main>
     <footer>
         <!-- Denne laver vi senere-->
