@@ -14,7 +14,7 @@ img{
 }
 
 .glass-effect{
-    border: 1px solid rgba(141,141,141,0.5);
+    border: 1px solid rgba((141,141,141),0.5);
     background: rgba(255,255,255,0.5);
     border-radius: 18px;
     box-shadow: 0 4px 30px rgba(0,0,0,0.1);
@@ -22,7 +22,7 @@ img{
 }
 
 .primary-button{
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid rgba((255,255,255),0.5);
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0,0,0,0.1);
     background: rgb(210,2,0);
@@ -33,10 +33,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-i{
-    font-size: 2rem;
 }
 
 /* Fonts */
@@ -80,7 +76,7 @@ p{
 /* Fonts slut */
 
 .main-whitespace{
-    max-width: 800px;
+    max-width: 1048px;
     margin: 6rem auto 0 auto;
 }
 
@@ -113,7 +109,7 @@ p{
 
 /* Emil start */
 
-.begivenheder-whitespace{
+.bingchilling{
     max-width: 800px;
     margin: auto;
 }
@@ -128,43 +124,41 @@ p{
 }
 
 .begivenheder-example{
-    height: 220px;
-    width: 320px;
+    height: 200px;
+    width: 300px;
     background-image: url(images/example-party.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
 
-.exampel{
-    height: 230px;
-    border-radius: 10px;
-}
-
 .begivenheder-text{
     margin-left: 20px;
-    max-width: 420px;
+    max-width: 400px;
 }
 
 .share{
-    font-size: 1.75rem;
+    font-size: 1.50rem;
     margin-left: 10px;
 }
 
 .flex-bottom{
     margin-top: auto;
-    gap: 1.5rem;
-    align-items: center;
 }
 
 .begivenheder-flex{
-    max-height: 300px;
+    max-height: 250px;
     margin-bottom: 20px;
     max-width: 800px;
     padding-bottom: 20px;
-    padding: 1rem 0.75rem;
+    padding: 20px;
     margin: auto;
     margin-top: 32px;
+}
+
+.read-more{
+    margin-right: 10px;
+    margin-top:6px ;
 }
 
 .background-loggedin{
@@ -188,16 +182,12 @@ p{
     margin: 12px 0;
 }
 
-<<<<<<< Updated upstream
-.information-sommerfest{
-=======
 .tilmeld-afmeld-knap{
     padding: 1rem;
     width: 7.5rem;
 }
 
 .information-event{
->>>>>>> Stashed changes
     justify-content: center;
     margin-left: 100px;
 }
@@ -225,12 +215,13 @@ p{
 }
 
 .information-icons{
+    font-size: 1.3rem;
     width: 2rem;
 }
 
 .event-share-icon{
     margin-top: 12px;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 /* Malte Slut */
 
@@ -291,7 +282,7 @@ nav{
     text-align: center;
     margin: 6rem 2rem 2rem 2rem;
     border-radius: 18px;
-    border: 1px solid rgba((141,141,141),0.5);
+    border: 5px solid rgba((141,141,141),0.5);
 }
 
 .banner{
@@ -411,10 +402,10 @@ footer{
 }
 /* Vicky Slut */
 
-/* Alexander +(Vicky-login) start */
+/* Alexander start */
 
 
-/* .login-whitespace{
+.login-whitespace{
     max-width: 25rem;
     margin: auto;
 }
@@ -466,25 +457,6 @@ footer{
     color: rgb(78, 78, 78);;
     font-size: 1rem;
     
-}    */
+}   
 
-
-input{
-    display: inline-block;
-    border: solid 1px rgba(141,141,141,0.5);
-    width: 100%;
-    height: 1.75rem;
-    color: rgba(255,255,255,0.3);
-    padding: 1rem 1rem;
-    border-radius: 10px;
-}
-
-label{
-    margin-bottom: ;
-}
-
-.login-card{
-    padding: 0.75rem 1rem;
-    width: 50%;
-}
 /* Alexander slut */
