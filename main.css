@@ -8,6 +8,10 @@
     color: #0f0f0f;
 }
 
+i{
+    font-size: 2rem;
+}
+
 img{
     /*max er nødvendigt for at billeder bliver så stort som der kan blive i boksen den er i*/
     max-width: 100%;
@@ -152,7 +156,7 @@ p{
 }
 
 .begivenheder-flex{
-    max-height: 250px;
+    max-height: 300px;
     margin-bottom: 20px;
     max-width: 800px;
     padding-bottom: 20px;
