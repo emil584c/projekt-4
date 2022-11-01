@@ -179,25 +179,32 @@ p{
 
 /* Malte start */
 .beskrivelse-textbox{
-    border: solid 2px black;
-    padding: 12px;
+    padding: 15px;
     margin: 12px 0;
 }
 
 .konkurrencer-textbox{
-    border: solid 2px black;
-    padding: 12px;
+    padding: 15px;
     margin: 12px 0;
 }
 
+<<<<<<< Updated upstream
 .information-sommerfest{
+=======
+.tilmeld-afmeld-knap{
+    padding: 1rem;
+    width: 7.5rem;
+}
+
+.information-event{
+>>>>>>> Stashed changes
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .box-grey{
-    height: 367px;
-    width: 578px;
+    height: 300px;
+    width: 500px;
     background-color: grey;
 }
 
@@ -205,8 +212,25 @@ p{
     background-image: url(https://frinet.nemtilmeld.dk/images/descriptions/13571/521ee98b-fd50-4eb3-9bc0-6fb583d51eebSommerfest-2016-1-von-1.jpg);
 }
 
+.information-kort-event{
+    padding: 15px;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
 .event-icon-style{
-    gap: 20px;
+    margin-bottom: 1.2rem;
+}
+
+.information-icons{
+    width: 2rem;
+}
+
+.event-share-icon{
+    margin-top: 12px;
+    margin-left: 25px;
 }
 /* Malte Slut */
 
