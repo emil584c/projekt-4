@@ -109,7 +109,7 @@ p{
 
 /* Emil start */
 
-.bingchilling{
+.begivenheder-whitespace{
     max-width: 800px;
     margin: auto;
 }
@@ -129,6 +129,11 @@ p{
     background-image: url(images/example-party.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.exampel{
+    height: 230px;
     border-radius: 10px;
 }
 
@@ -167,6 +172,12 @@ p{
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.flex-bottom{
+    margin-top: auto;
+    gap: 1.5rem;
+    align-items: center;
 }
 
 /* emil slut */
