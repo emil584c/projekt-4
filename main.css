@@ -144,7 +144,7 @@ i{
 }
 
 .exampel{
-    height: 230px;
+    height: 14.5rem;
     border-radius: 10px;
 }
 
@@ -463,3 +463,29 @@ label{
     align-items: center;
 }
 /* Alexander slut */
+
+
+
+@media screen and (max-width: 760px){
+    .exampel{
+        height: 12rem;
+        border-radius: 10px;
+    }
+
+    .begivenheder-flex{
+        max-height: 500px;
+        margin-bottom: 20px;
+        max-width: 320px;
+        padding-bottom: 20px;
+        padding: 20px;
+        margin: auto;
+        margin-top: 32px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-bottom{
+        margin-top: 1rem;
+    }
+
+}
