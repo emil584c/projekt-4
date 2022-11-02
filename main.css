@@ -340,6 +340,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-right: 2rem;
 }
 
 nav{
