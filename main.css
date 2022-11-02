@@ -515,6 +515,12 @@ footer{
     margin: 6rem auto 0 auto;
 }
 
+/* tidligere begivenheder */
+
+.margin-top{
+    margin-top: 2rem;
+}
+
 /* begivenheder search bar */
 
 .searchbar-container{
