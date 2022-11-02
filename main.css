@@ -125,7 +125,7 @@ i{
 .filter{
     display: flex;
     flex-direction: row;
-    gap: 32px;
+    gap: 1.5rem;
 }
 
 .filter-style{
@@ -204,9 +204,7 @@ i{
     max-width: 400px;
 }
 
-.share{
-    margin-left: 10px;
-}
+
 
 .flex-bottom{
     margin-top: auto;
@@ -252,10 +250,6 @@ i{
 
 .konkurrencer-textbox{
     padding: 0.75rem 1rem;
-}
-
-.tilmeld-afmeld-knap{
-    margin-right: 1.5rem;
 }
 
 .event-image{
