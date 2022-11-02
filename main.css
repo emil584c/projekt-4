@@ -167,7 +167,7 @@ i{
     transition-delay: 150ms;
 }
 .slide3{
-    transition-delay: 50ms;
+    transition-delay: 150ms;
 }
 .slide4{
     transition-delay: 50ms;
@@ -592,12 +592,50 @@ label{
 /* Alexander slut */
 
 
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:#0f0f0f;
+}
+
+.log-in-hamburger{
+    display: none;
+}
+
+
+
 
 @media screen and (max-width: 760px){
+
+
+    .background-login{
+        height: 100vh;
+        width: 100vh;
+    }
+
     .exampel{
         height: 12rem;
         border-radius: 10px;
     }
+
+    .searchbar-container{
+        margin: auto;
+        margin-top: -50px;
+    }
+
+    .main-whitespace{
+        padding: 0px 1rem;
+    }
+
 
     .begivenheder-flex{
         max-height: 500px;
@@ -615,4 +653,79 @@ label{
         margin-top: 1rem;
     }
 
+    .filter-flex{
+        flex-basis: 100%;
+        flex-wrap: wrap;
+    }
+
+    .filter{
+        margin: auto
+    }
+
+    .filter-style{
+        
+    }
+
+    .hamburger{
+        display: block;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .navmenu{
+        display: flex;
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transform: 0.3s;
+        border: 1px solid rgba(141,141,141,0.5);
+        background: rgba(255,255,255,0.5);
+        border-radius: 18px;
+        box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+        backdrop-filter: blur(5px);
+    }
+    .navitem{
+        margin: 16px 0;
+        color:#0f0f0f;
+    }
+
+    .navmenu.active{
+        left: 0;
+
+    }
+    
+    .nav-flex{
+        flex-direction: column;
+    }
+
+    .log-in{
+        display: none;
+    }
+
+    .log-in-hamburger{
+        display: block;
+    }
+    
+   .flexwrap2{
+    display: flex;
+    flex: 3;
+    margin-inline: auto;
+    margin: auto;
+   }
 }
+
+
+
