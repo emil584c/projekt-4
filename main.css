@@ -446,6 +446,11 @@ nav{
 
 .post-1{
     margin-right: 2rem;
+    flex: 1;
+}
+
+.post-2{
+    flex: 1;
 }
 
 .post-title{
