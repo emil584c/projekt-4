@@ -120,6 +120,38 @@ i{
 
 /* Emil start */
 
+.icon-begivenhed{
+    font-size: 1rem;
+}
+
+.filter{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.filter-style{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 1rem;
+    color: #0f0f0f;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    background: rgb(210,2,0);
+    background: linear-gradient(90deg, rgba(210,2,0,1) 0%, rgba(252,207,0,1) 100%);
+    padding: 1rem 1.75rem 1rem 1.75rem;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-flex{
+    gap: 5.5rem;
+}
+
 .hidden{
     opacity: 0;
     transition: all 0.8s;
