@@ -253,6 +253,7 @@ i{
 /* emil slut */
 
 /* Malte start */
+
 .beskrivelse-textbox{
     padding: 0.75rem 1rem;
     margin-bottom: 2rem;
@@ -264,53 +265,54 @@ i{
 
 .tilmeld-afmeld-knap{
     margin-right: 1.5rem;
-    /* width: 7.5rem; */
-}
-
-.information-event{
-    justify-content: center;
-    margin-left: 1rem;
 }
 
 .event-image{
     width: 40%;
     border-radius: 18px;
+    height: 14.5rem;
 }
 
 .information-kort-event{
     padding: 0.75rem 1rem;
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.information-event{
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .font-medium{
     font-weight: 500;
 }
 
+.info-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
 .icon-container{
     width: 2rem;
     display: flex;
     justify-content:  center;
+    align-items: center;
 }
 .event-icon-style{
     margin-bottom: 1rem;
-
 }
-
-/* .information-icons{
-    font-size: 1.3rem;
-    width: 2rem;
-    margin-right: 0.75rem;
-} */
 
 .begivenhed-button-flex{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-/* .event-share-icon{
-    display: flex;
-    justify-content: center;
-} */
+
 /* Malte Slut */
 
 /* Vicky Start - Forside og header*/
