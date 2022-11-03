@@ -670,6 +670,7 @@ label{
     .filter{
         margin: auto;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
     .hamburger{
@@ -758,6 +759,13 @@ label{
         margin-bottom: 1rem;
         max-width: 400px;
     
+    }
+    .begivenheder-whitespace{
+        text-align: center;
+    }
+    .begivenheder-text{
+        margin-left: 0px;
+        max-width: 400px;
     }
 }
 
