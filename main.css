@@ -101,6 +101,7 @@ i{
 .flex-wrap{
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .justify-end{
@@ -224,7 +225,7 @@ i{
 }
 
 .background-loggedin{
-    background-image: url(images/background-fix.jpg);
+    background-image: url(images/background-loggedin.png);
     background-size: cover;
     background-position: 25%;
     background-repeat: no-repeat;
@@ -323,7 +324,6 @@ header{
     width: 100%; /* Full width */
     z-index: 100;
     /* use JS to make the header glass on scroll */
-    background-image: inherit;
 }
 
 .logo{
@@ -670,10 +670,6 @@ label{
         flex-wrap: wrap;
     }
 
-    .filter-style{
-        
-    }
-
     .hamburger{
         display: block;
     }
@@ -731,10 +727,40 @@ label{
         display: block;
     }
     
-   .flexwrap2{
-    display: flex;
-    flex: 3;
-    margin-inline: auto;
-    margin: auto;
-   }
+    .flex-wrap{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    .mine-begivenheder-whitespace{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+}
+
+
+
+@media screen and (max-width: 995px){
+    .flex-wrap{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .mine-begivenheder-whitespace{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+    }
 }
