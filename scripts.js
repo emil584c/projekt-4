@@ -13,7 +13,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 
 
-  
+
 // filteret
 
 
@@ -55,3 +55,13 @@ hamburger.addEventListener("click", () =>{
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 })
+
+
+const statuss = ['Tilmeld', 'Afmeld'];
+const tilmeldKnap = document.querySelector('.zipzap');
+
+
+tilmeldKnap.addEventListener('click', function handleClick() {
+    tilmeldKnap.textContent = statuss[1];
+});
+
