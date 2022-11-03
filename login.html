@@ -25,16 +25,17 @@
             <h1 class="">Log ind</h1>
             <h2 class="">Log ind med dit UCL login</h2>
             <div class="glass-effect login-card">
-                <form action="index.html">
-                    <label for="fname">UCL brugernavn</label><br>
-                    <input class="login-input" type="text" id="" name=""><br><br>
-                    <label for="lname">UCL kodeord</label><br>
-                    <input class="login-input" type="text" id="" name=""><br><br>
+                <form>
+                    <label for="">UCL brugernavn</label><br>
+                    <input id="username-input" class="login-input" type="text" placeholder="Brugernavn"><br><br>
+                    <label for="">UCL kodeord</label><br>
+                    <input id="password-input" class="login-input" type="text" placeholder="Kodeord"><br><br>
+                    <p id="invalid-input" class="invalid-input"></p>
+                    <div class="login-card-buttons">
+                        <button id="login-button" class="primary-button cursor-pointer" type="submit">Log ind</button>
+                        <a class="secondary-button cursor-pointer" href="">Annuller</a>
+                    </div>
                 </form>
-                <div class="login-card-buttons">
-                    <a class="primary-button cursor-pointer" href="">Log ind</a>
-                    <a class="secondary-button cursor-pointer" href="">Annuller</a>
-                </div>
             </div>
         </div>
     </main>
@@ -43,3 +44,5 @@
     </footer>
 </body>
 </html>
+
+<script src="login.js"></script>

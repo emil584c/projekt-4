@@ -590,6 +590,12 @@ label{
     flex-direction: row;
     align-items: center;
 }
+
+.invalid-input{
+    font-size: 1rem;
+    color:#0f0f0f;
+    margin: 1rem 0;
+}
 /* Alexander slut */
 
 
