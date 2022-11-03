@@ -700,6 +700,10 @@ label{
     .navitem{
         margin: 16px 0;
         color:#0f0f0f;
+        font-family: 'Exo 2', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 2rem;
     }
 
     .navmenu.active{
