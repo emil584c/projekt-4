@@ -364,6 +364,7 @@ nav{
     margin: 6rem 2rem 2rem 2rem;
     border-radius: 18px;
     border: 5px solid rgba((141,141,141),0.5);
+    
 }
 
 .banner{
@@ -787,8 +788,9 @@ label{
     }
 
     .banner-container{
-        aspect-ratio: 3:2;
         height: 200px;
+        margin: 6rem 2rem 12rem 2rem;
+        
     }
 
     .post-1{
