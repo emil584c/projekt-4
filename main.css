@@ -101,6 +101,7 @@ i{
 .flex-wrap{
     display: flex;
     flex-wrap: wrap;
+    gap: 2rem;
     
 }
 
@@ -396,6 +397,11 @@ nav{
 
 .netflix-gallery-card{
     margin-right: 2rem;
+    width: 300px;
+    border-radius: 18px;
+}
+
+.netflix-gallery-card2{
     width: 300px;
     border-radius: 18px;
 }
@@ -736,6 +742,21 @@ label{
         align-content: center;
         justify-content: center;
     }
+    #hide-comment{
+        display: none;
+    }
+
+    .post-flex{
+        flex-direction: column;
+    }
+    .post-image{
+        margin: auto;
+        width: 90%;
+        border-radius: 18px;
+        margin-bottom: 1rem;
+        max-width: 400px;
+    
+    }
 }
 
 
@@ -763,4 +784,14 @@ label{
         flex-direction: column;
         align-items: center;
     }
+
+    .banner-container{
+        aspect-ratio: 3:2;
+        height: 200px;
+    }
+
+    .post-1{
+        margin: 0;
+    }
+
 }
