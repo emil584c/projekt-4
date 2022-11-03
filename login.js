@@ -1,18 +1,12 @@
-window.addEventListener("DOMContentLoaded",load)
-
+window.addEventListener("DOMContentLoaded",load);
 function load(){
     console.log("JS VIRKER!");
 }
 
+
 let loginData = [
-    {
-        brugernavn: "abc12345"
-        kodeord: "kodeord1"
-    },
-    {
-        brugernavn: "def6789"
-        kodeord: "kodeord2"
-    }
+    {"brugernavn":"abc12345","kodeord":"kodeord1"},
+    {"brugernavn":"def6789","kodeord":"kodeord2"}
 ];
 
 const usernameInput = document.querySelector("#username-input").value
@@ -28,7 +22,7 @@ document.querySelector("#login-button").addEventListener("click", (e) => {
             login = true;
             break;
         } else {
-            document.querySelector("#invalid-input").textContent = "Brugernavn eller kodeord er forkert";
+            document.querySelector("#invalid-input").innerHTML = "Brugernavn eller kodeord er forkert";
         }
     }
-}
+});
