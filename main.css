@@ -224,9 +224,9 @@ i{
 }
 
 .background-loggedin{
-    background-image: url(images/background-loggedin.png);
-    background-position: center;
-    background-size: 100%;
+    background-image: url(images/background-fix.jpg);
+    background-size: cover;
+    background-position: 25%;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -323,6 +323,7 @@ header{
     width: 100%; /* Full width */
     z-index: 100;
     /* use JS to make the header glass on scroll */
+    background-image: inherit;
 }
 
 .logo{
@@ -659,7 +660,8 @@ label{
     }
 
     .filter{
-        margin: auto
+        margin: auto;
+        flex-wrap: wrap;
     }
 
     .filter-style{
