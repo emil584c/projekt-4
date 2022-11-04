@@ -55,8 +55,7 @@ hamburger.addEventListener("click", () =>{
 
 
 const statuss = ['Tilmeld', 'Afmeld'];
-const tilmeldKnap = document.querySelector('.zipzap');
-
+const tilmeldKnap = document.querySelectorAll('.zipzap');
 
 tilmeldKnap.addEventListener('click', function handleClick() {
     tilmeldKnap.textContent = statuss[1];
