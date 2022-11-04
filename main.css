@@ -328,6 +328,12 @@ header{
     /* use JS to make the header glass on scroll */
 }
 
+.header-glass{
+    /* border: 1px solid rgba(141,141,141,0.2); */
+    background: rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+}
+
 .logo{
     max-height: 3rem;
 }
