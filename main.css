@@ -391,6 +391,7 @@ nav{
 .horizontal-scroll{
     overflow-x: scroll;
     scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 .horizontal-scroll::-webkit-scrollbar {
