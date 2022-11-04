@@ -54,10 +54,23 @@ hamburger.addEventListener("click", () =>{
 })
 
 
+
+
+
 const statuss = ['Tilmeld', 'Afmeld'];
-const tilmeldKnap = document.querySelectorAll('.zipzap');
+const tilmeldKnap = document.querySelectorAll(".zipzap");
 
-tilmeldKnap.addEventListener('click', function handleClick() {
-    tilmeldKnap.textContent = statuss[1];
+let values = Array.prototype.map.call(tilmeldKnap, function(el) {
+    return el.textContent;
 });
+console.log(values);
 
+let body = document.body
+
+body.addEventListener('load', () => {
+    for (let i = 0; i < values.length; i++) {
+        values[i].addEventListener("click", function() {
+            values[i].textContent = statuss[1];
+        });
+      } 
+});
