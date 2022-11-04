@@ -354,6 +354,20 @@ nav{
     margin-left: 1rem;
 }
 
+.profile-container{
+    margin-left: 3rem;
+}
+.rasmus-profile{
+    font-size: 1.25rem;
+    color: #fafafa;
+}
+
+.bell-icon{
+    font-size: 1.25rem;
+    color: #fafafa;
+    margin-right: 0.5rem;
+}
+
 .cursor-pointer{
     cursor: pointer;
 }
