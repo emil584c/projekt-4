@@ -398,7 +398,7 @@ nav{
  }
   
 
-.dropdown-content {
+ .dropdown-content {
     display: none;
     position: absolute;
     background: rgba(255,255,255,0.5);
@@ -407,8 +407,17 @@ nav{
     backdrop-filter: blur(5px);
     box-shadow: 0 4px 30px rgba(0,0,0,0.1);
     min-width: 300px;
+    max-height: 300px;
     z-index: 1;
     left: -200px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* hide scrollbar IE and Edge */
+    scrollbar-width: none;  /* hide scrollbar Firefox */
+}
+
+/* hide scroll bare i chrome, safari og opera */
+.dropdown-content::-webkit-scrollbar {
+    display: none; 
 }
   
 /* Notifications styling */

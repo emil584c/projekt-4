@@ -21,12 +21,16 @@ const notificationArray = [
     posted: "I går 18.00",
   },
   {
+    header: "Husk J-dag i fredagsbaren kl 12.00",
+    text: "J-dag starter om 4 timer",
+    posted: "4 Okt. 08.00",
+  },
+  {
     header: "Du deltog til Semesterfest ",
     text: "Vil du dele en kommentar om din aften?",
     posted: "1 Okt. 03.00",
   },
 ];
-
 let showNotifications = false;
 
 /* When the user clicks on the button,
