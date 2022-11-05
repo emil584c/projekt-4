@@ -1,7 +1,6 @@
 window.addEventListener("DOMContentLoaded",load);
 
 // Json Javascript object notation --> Et array med objekter i.
-// 
 const loginData = [
     {"brugernavn":"abc12345","kodeord":"kodeord1"},
     {"brugernavn":"def6789","kodeord":"kodeord2"}
@@ -17,8 +16,11 @@ function load(){
     e.preventDefault();
 
     // Variabler for at ungå at skrive det i funktionen.
+    // queryselector er standarden at bruge, den kan bruges både til at target elementer ved brug af tags, id´er og class
     const usernameInput = document.querySelector("#username-input").value;
     const passwordInput = document.querySelector("#password-input").value;
+
+    // vi bruger const fordi at det ikke er noget der skal ændre sig, vi bruger let når vi har en værdig vi ved der skal ændre sig
 
     for(let i = 0; i < loginData.length; i++){        
         if (loginData[i].brugernavn == usernameInput && loginData[i].kodeord == passwordInput){
