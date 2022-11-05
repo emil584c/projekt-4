@@ -315,6 +315,8 @@ i{
     background-attachment: fixed;
 }
 
+/* header styling */
+
 header{
     display: flex;
     flex-direction: row;
@@ -378,6 +380,70 @@ nav{
     cursor: pointer;
 }
 
+/* Dropdown and notifications styling */
+
+.dropdown-button {
+    margin: 16px 0.5rem 16px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-button:hover{
+    color: #fccf00;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+ }
+  
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: rgba(255,255,255,0.5);
+    border-radius: 18px;
+    border: 1px solid rgba(141,141,141,0.5);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    min-width: 300px;
+    z-index: 1;
+    left: -200px;
+}
+  
+/* Notifications styling */
+.notification-wrapper{
+    color: #0f0f0f;
+    padding: 0.75rem 1rem;
+    border-radius: 18px;
+    border: 1px solid rgba(141,141,141,0.5);
+}
+
+.notification-wrapper:hover{
+    background-color: #d20200;
+    color: #fafafa;
+}
+
+.show {
+    display:block;
+}
+
+.notifications-title{
+    margin: 0.75rem 1rem;
+}
+
+.notification-header{
+    font-weight: 500;
+}
+
+.date-time{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 300;
+}
+
+/* Forside banner */
+
 .banner-container{
     position: relative;
     text-align: center;
@@ -400,6 +466,8 @@ nav{
     transform: translate(-50%, -50%);
     margin: 0;
 }
+
+/* Netflix scroll */
 
 .netflix-scroll{
     margin: 0 0 0 2rem;
@@ -437,6 +505,8 @@ nav{
     padding: 0.75rem 1rem;
 }
 
+/* see alle begivenheder og se flere kommentare */
+
 .see-all-events-container{
     display: flex;
     flex-direction: row;
@@ -462,6 +532,8 @@ nav{
 .previous-events{
     margin: 0 0 1rem 2rem;
 }
+
+/* Tidligere begivenheds opslag */
 
 .post-container{
     display: flex;

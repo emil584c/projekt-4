@@ -27,7 +27,15 @@
             <span class="bar"></span>
         </div>
         <div class="profile-container">
-            <i class="fa-solid fa-bell bell-icon"></i>
+            <div class="dropdown">
+                <i id="click-bell" class="fa-solid fa-bell bell-icon dropdown-button"></i>
+                <div id="notifications" class="dropdown-content">
+                    <h2 class="notifications-title">Notifikationer</h2>
+                    <div id="notification-section">
+                        <!-- template content being cloned/pasted to here -->
+                    </div>
+                </div>
+            </div>
             <a class="rasmus-profile cursor-pointer">Rasmus</a>
         </div>
     </header>
@@ -95,7 +103,19 @@
     <footer>
         <!-- Denne laver vi senere-->
     </footer>
+
+    <!-- den står nederst i bodyen da den ikke bliver vist, 
+        men er en skabelon for noget kode som man kan kopiere og sætte ind andre steder i html´en med JS -->
+    <template id="notification-template">
+        <div class="notification-wrapper">
+            <h3 class="notification-header"></h3>
+            <p class="notification-text"></p>
+            <span class="date-time"></span>
+        </div>
+    </template>
+
 </body>
 </html>
 
 <script src="header-blurry.js"></script>
+<script src="notifications.js"></script>
