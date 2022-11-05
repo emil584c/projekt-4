@@ -31,15 +31,9 @@ const tilmeldKnap = document.querySelectorAll(".tilmeld-afmeld");
 let values = Array.prototype.map.call(tilmeldKnap, function(el) {
     return el;
 });
-console.log(values);
-
-
-
-
 
 values.forEach(buttonText => {
     buttonText.addEventListener('click', function handleClick(event) {
-        console.log('box clicked', event);
       if (this.innerHTML == "Tilmeld"){
         this.innerHTML = "Afmeld";
       }
@@ -49,3 +43,5 @@ values.forEach(buttonText => {
         
      });
     });
+
+
