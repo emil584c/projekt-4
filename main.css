@@ -89,10 +89,7 @@ i{
     margin: 6rem auto 0 auto;
 }
 
-.flex-row{
-    display: flex;
-    flex-direction: row;
-}
+
 .flex-column{  
     display: flex;
     flex-direction: column;
@@ -580,7 +577,7 @@ nav{
 
 .post-description{
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
     margin-left: 1rem;
     flex: 1;
@@ -727,8 +724,10 @@ label{
     display: none;
 }
 
-
-
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
 
 @media screen and (max-width: 760px){
 
@@ -907,3 +906,4 @@ label{
     }
 
 }
+
