@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="main.css">
     <script src="https://kit.fontawesome.com/1e8b3aab75.js" crossorigin="anonymous"></script>
     <script src="scripts.js" defer></script>
+    <script src="slide.js" defer></script>
 </head>
 <body class="background-login">
     <header id="header">
@@ -94,7 +95,23 @@
             <article class="post-card post-1 glass-effect">
                 <h3 class="post-title">Brætspilscafe</h3>
                 <div class="post-flex">
-                    <img class="post-image" src="images/boardgame2.jpg" alt="slideshow af billeder fra Sommerfest">
+                    <div class="slideshow-container">
+                        <div class="mySlides1 post-image">
+                          <img src="images/fredagsbar.jpg">
+                        </div>
+                      
+                        <div class="mySlides1 post-image">
+                          <img src="images/boardgame2.jpg">
+                        </div>
+                      
+                        <div class="mySlides1 post-image">
+                          <img src="images/semesterfest.jpg">
+                        </div>
+                      
+                        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                      </div>
+                      
                     <div class="post-description">
                         <p>Vi siger tak for endnu en succesfuld brætspilscafé. Dejligt at se så mange nye ansigter, det varmer at mærke gode støtte fra jer allesammen. I kan tjekke billederne ud, som vi har taget her på blogpostet. Vi glæder os til at se jer næste tirsdag, hvor i kan se frem til nogle ekstra gode præmier.</p>
                         <p class="posted label">Posted d. 18/10</p>
@@ -118,7 +135,22 @@
             <article class="post-card post-2 glass-effect"  id="hide-comment">
                 <h3 class="post-title">Fredagsbar</h3>
                 <div class="post-flex">
-                    <img class="post-image" src="images/fredagsbar.jpg" alt="slideshow af billeder fra Sommerfest">
+                    <div class="slideshow-container">
+                        <div class="mySlides2 post-image">
+                            <img src="images/fredagsbar.jpg">
+                          </div>
+                        
+                          <div class="mySlides2 post-image">
+                            <img src="images/boardgame2.jpg">
+                          </div>
+                        
+                          <div class="mySlides2 post-image">
+                            <img src="images/semesterfest.jpg">
+                          </div>
+
+                        <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                    </div>
                     <div class="post-description">
                         <p>Tak for endnu en fed fredagsbar i Beerbox! Som altid en fornøjelse at se jer allesammen. Vi hygger os lige så meget som jer. Vi ses i næste uge, når vi igen åbner op for fredagshyggen i Beerbox.</p>
                         <p class="posted label">Posted d. 14/10</p>
