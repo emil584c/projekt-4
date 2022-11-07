@@ -44,7 +44,7 @@ values.forEach(buttonText => {
         this.innerHTML = "Tilmeld"
       }
         
-     });
     });
+});
 
 
