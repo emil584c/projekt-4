@@ -1,7 +1,10 @@
 // slide effect
 const observer = new IntersectionObserver ((entries) =>{
     entries.forEach((entry) => {
-        entry.target.classList.toggle('show', entry.isIntersecting);
+        console.log(entry)
+        if (entry.isIntersecting){
+            entry.target.classList.add('show');
+        } 
     });
 });
 
