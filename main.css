@@ -35,9 +35,26 @@ img{
     cursor: pointer;
 }
 
+.primary-button:hover{
+    background: rgb(210,2,0);
+    background: linear-gradient(90deg, rgb(248, 49, 46) 0%, rgb(251, 217, 66) 100%);
+}
+
 .secondary-button{
     font-size: 1rem;
     margin: 0 1.5rem;
+}
+
+.secondary-button2{
+    font-size: 1rem;
+}
+
+.secondary-button:hover{
+    text-decoration: underline;
+}
+
+.secondary-button2:hover{
+    text-decoration: underline;
 }
 
 /* Fonts */
@@ -356,6 +373,10 @@ nav{
     cursor: pointer;
 }
 
+.nav-a:hover{
+    text-decoration: underline;
+}
+
 .log-in{
     margin-left: 1rem;
 }
@@ -574,6 +595,10 @@ nav{
 
 .post-image{
     width: 100%;
+    border-radius: 18px;
+}
+
+.post-image-radius{
     border-radius: 18px;
 }
 
@@ -964,3 +989,6 @@ label{
     background-color: #f1f1f1;
     color: black;
   }  
+
+
+ 
