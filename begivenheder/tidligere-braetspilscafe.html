@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../main.css">
     <script src="../scripts.js" defer></script>
     <script src="https://kit.fontawesome.com/1e8b3aab75.js" crossorigin="anonymous"></script>
+    <script src="../slide.js" defer></script>
 </head>
 <body class="background-login">
     <header id="header">
@@ -74,10 +75,26 @@
             <p>For at gøre det lidt mere spændende, har vi også sørget for at der vil være lidt forskellige konkurrencer i diverse spil. Her har du mulighed for at vinde fede præmier, som f.eks. drikkevare og andet.</p>
         </div>
 
-        <article class="post-card post-1 glass-effect margin-top">
+        <article class="post-card glass-effect margin-top">
             <h3 class="post-title">Brætspilscafe</h3>
             <div class="post-flex">
-                <img class="post-image" src="../images/boardgame2.jpg" alt="slideshow af billeder fra Sommerfest">
+                <div class="slideshow-container">
+                    <div class="mySlides1 post-image">
+                        <img class="post-image-radius" src="../images/boardgame2.jpg" alt="Billede af brætspil">
+                      </div>
+                    
+                      <div class="mySlides1 post-image">
+                        <img class="post-image-radius" src="../images/fredagsbar.jpg" alt="Billede af øl der bliver hældt op">
+                      </div>
+                    
+                      <div class="mySlides1 post-image">
+                        <img class="post-image-radius" src="../images/semesterfest.jpg" alt="Billede fra stor fest">
+                      </div>
+                  
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                  </div>
+                  
                 <div class="post-description">
                     <p>Vi siger tak for endnu en succesfuld brætspilscafé. Dejligt at se så mange nye ansigter, det varmer at mærke gode støtte fra jer allesammen. I kan tjekke billederne ud, som vi har taget her på blogpostet. Vi glæder os til at se jer næste tirsdag, hvor i kan se frem til nogle ekstra gode præmier.</p>
                     <p class="posted label">Posted d. 18/10</p>
@@ -90,15 +107,19 @@
             </div>
             <div class="comment-container glass-effect">
                 <p class="label">Mia Sørensen</p>
-                <p>Rigtig hyggeligt arrangement, kan varmt anbefale at deltage :)</p>
+                <p>Rigtig hyggeligt arrangement, kan varmt anbefale at deltage :) <br><br></p>
                 <p class="posted label">Posted d. 20/10</p>
+            </div>
+            <div class="see-all-events-container">
+                <a class="see-more-comments cursor-pointer secondary-button2" href="begivenheder/tidligere-braetspilscafe.html">Se flere kommentarer</a>
+                <i class="fa-regular fa-greater-than see-more-comments-icon"></i>
             </div>
         </article>
     </main>
     <footer>
         <!-- Denne laver vi senere-->
     </footer>
+    <script src="../header-blurry.js"></script>
 </body>
 </html>
 
-<script src="header-blurry.js"></script>
