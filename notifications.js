@@ -1,8 +1,6 @@
 window.addEventListener("DOMContentLoaded",load);
 
 function load (){
-  console.log("js linket")
-
   document.querySelector("#click-bell").addEventListener("click",showDropdown); 
 }
 
