@@ -4,9 +4,7 @@ function load (){
   document.querySelector("#click-bell").addEventListener("click",showDropdown); 
 }
 
-// classList giver adgang til at se og manipulere et elements classes
-
-// Json array der indeholder notifikations content
+// Json (Java Script Object Notation) array der indeholder notifikations content
 const notificationArray = [
   {
     header: "Husk Brætspilscafe d. 15/11",
@@ -30,6 +28,8 @@ const notificationArray = [
   },
 ];
 let showNotifications = false;
+
+// classList giver adgang til at se og manipulere et elements classes
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
