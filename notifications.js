@@ -14,7 +14,7 @@ const notificationArray = [
   {
     header: "Din begivenhed J-dag blev afholdt",
     text: "Vil du fortælle andre om hvordan det gik?",
-    posted: "I går 18.00",
+    posted: "I går 18.00", 
   },
   {
     header: "Husk J-dag i fredagsbaren kl 12.00",
